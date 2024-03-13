@@ -1,0 +1,292 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#tot{
+    width: 100%;
+    justify-content: center;
+}
+
+#antet
+{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+}
+
+#masca_sub_divul_mobil
+{
+    width: 100%;
+    height: 56px; 
+    background: black;
+}
+
+#logo{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+
+
+#navigation_bar{
+    width: 100%;  
+    height: 100px;
+    background-color: #1B1B1B;
+    border-bottom: 20px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    
+    top: 100; 
+    left: 0;
+    right: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+#gradient{
+    width: 100%;
+    height: 500px;
+    background: rgb(255,255,255);
+    background: linear-gradient(185deg, rgba(255,255,255,1) 0%, rgba(229,143,86,1) 0%, rgba(232,141,107,1) 19%, rgba(229,143,86,1) 36%, rgba(234,167,122,1) 51%, rgba(255,255,255,1) 69%);
+    display: flex;
+}
+
+#imagine1{
+    width: 30%;
+    height: 400px;
+    padding-top:5%;
+    margin-left: 2%;
+}
+
+#info{
+    width: 50%;
+    height: 400px;
+    font-family: Arial, serif;
+    padding: 50px;
+    text-align: center;
+    z-index: 10px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+#buton_espressor{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    background-color: #17171A;
+    border: 1px solid white;
+    border-radius: 27px;
+    color: white;   
+    transition: color 0.4s linear;
+    transition: background 0.4s linear;
+}
+
+#buton_espressor:hover{
+
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 27px;
+    
+    
+}
+
+#imagine2{
+    width: 25%;
+    height: 400px;
+    padding-top:4%;
+    margin-right: 120px; 
+}
+
+
+#optiuni{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#text{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+#De_cumaprat{
+    
+    width: 80%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 50px;
+}
+
+#informatii{
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+#sub_catogorie1{
+    width: 70%;
+    height: 368px;
+    text-align: center;
+    padding: 45px;
+    margin-left: 10px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: box-shadow 0.4s linear;
+}
+
+#sub_catogorie1:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+#buton1{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 25px;
+    transition: background 0.4s linear;
+}
+
+#buton1:hover{
+    background: #DEDDDC;
+}
+
+#poze{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+
+a{
+    text-decoration: none;
+}
+
+#sub_catogorie2{
+    width: 45%;
+    height: 490px;
+    background: yellow;
+    margin: 10px;
+    background: #F3EEE6;
+    text-align: center;
+    padding: 4%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: box-shadow 0.4s ease;
+}
+
+#sub_catogorie2:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+
+#subsol{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    flex: auto;
+}
+    
+#plati{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;    
+    color: #7F7F7F;
+    font-size: 17px;
+}
+
+#about_us{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.de_lucrat_php{
+    
+    margin-right: 50px;
+    height: 80%;
+    width: 40%;    
+    float: right;
+    padding-top: 15px
+}
+
+.de_lucrat_php .btnLogin_popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: background 0.4s linear;
+}
+
+
+.de_lucrat_php .btnLogin_popup:hover{
+    background: #fff;
+    color: #162938;
+    text-decoration: none;
+}
+
+.de_lucrat_php button{
+    width: auto;
+    min-width: 150px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: background 0.4s linear;
+}
+
+.de_lucrat_php button:hover{
+    background: #fff;
+    color: #162938;
+    text-decoration: none;
+}
+
+
+
+

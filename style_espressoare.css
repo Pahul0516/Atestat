@@ -1,0 +1,162 @@
+
+.mid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient{
+    width: 100%;
+    height: 250px;
+    background-image: url(https://www.nespresso.com/ecom/medias/sys_master/public/27000726454302/3840x720-plp-machines-hero-springPromo-apr23.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scris{
+
+    color: #fff;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.scris p{
+    color: #fff;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+.butoane{
+    width: 75%;
+}
+
+
+.butoane button{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    background: #fff;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    cursor: pointer;
+}
+
+.butoane button:hover{
+    font-weight: 700;
+}
+
+.container{
+    width: 75%;
+    height: auto;
+}
+
+
+
+.container .nr_espresoare
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.espressor{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: box-shadow 0.4s linear;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.espressor:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+
+.poza{
+    width: 9%;
+    height: 270px;
+    padding-left: 5px;
+}
+
+.info{
+    width: 70%;
+    height: 260px;
+    border-right: 2px solid #656565;
+}
+
+.pret{
+    width: 36%;
+    height: 300px;
+}
+
+.info p{
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    text-align: justify;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.info button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 100%;
+    background: red;
+    vertical-align: -2px
+}
+
+.pret{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.pret p{
+    font-size: 18px;
+    color: #3D8705;
+    margin: 0;
+}
+
+.pret span{
+    font-size: 10px;
+}
+
+.pret button{
+    width: 45%;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background: #3D8705;
+    color: #fff;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    transition: background 0.4s ease;
+}
+
+.pret button:hover{
+    background: #357504;
+}
+
+.ceva{
+    width: 40%;
+    height: 50px;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 15px;
+}

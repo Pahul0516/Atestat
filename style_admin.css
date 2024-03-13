@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mijloc{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+}
+
+.mijloc a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mijloc #scris1{
+    font-size: 30px;
+    
+}
+
+
+.mijloc #scris2{
+    font-size: 20px;
+   
+}
+
+.mijloc button{
+    width: 25%;
+    background: #FCC97D;
+    height: 50px;
+    border-radius: 25px;
+    font-family: NespressoLucas,"Trebuchet MS","Open Sans",Helvetica,Arial,sans serif!important;
+    font-size: 15px;
+    border: none;
+    transition: background 0.2s linear;
+}
+
+.mijloc button:hover{
+    background: #CFA567;
+}
+
+.container{
+    width: 70%;
+    height: 700px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
